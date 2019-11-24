@@ -1,0 +1,70 @@
+#canvas-basic {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  z-index:-4;
+
+}
+.cloth{
+
+  font-size:520px;
+  text-align:center;
+  position:absolute;
+    top:60vh;
+    left: 50vw;
+  transform: translateX(-50%) translateY(-50%);
+    z-index:-1;
+
+}
+
+.ball canvas {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+     border-radius: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50vh;
+    left: 50vw;
+  z-index: -1;
+}
+.face{
+
+  font-size:100px;
+  text-align:center;
+    line-height: 90%;
+  position:absolute;
+    top: 45vh;
+    left: 50vw;
+  transform: translateX(-50%) translateY(-50%);
+    z-index:2;
+  
+}
+.ear{
+
+  font-size:100px;
+  text-align:center;
+    line-height: 90%;
+  position:absolute;
+    top: 50vh;
+    left: 50vw;
+  transform: translateX( 110%) translateY(-120%);
+    z-index:2;
+
+}
+
+.crown{
+
+  font-size:250px;
+  text-align:center;
+  position:absolute;
+
+    left: 50vw;
+  transform: translateX(-50%) translateY(-30%);
+    z-index:-1;
+  
+}
